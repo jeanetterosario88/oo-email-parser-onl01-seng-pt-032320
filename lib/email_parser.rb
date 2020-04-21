@@ -8,7 +8,7 @@ class EmailAddressParser
   
   def parse
    
-    list.split(/, | /).uniq!
+    list.split(/, | /).uniq
     
   #   if list.include?(", ")
   #     list.gsub!((/,/), ", ")
